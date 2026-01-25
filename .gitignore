@@ -10,3 +10,8 @@ __pycache__/
 
 # Ignore environment variables
 .env
+
+*.pdf
+*.png
+fonts/*.ttf
+
