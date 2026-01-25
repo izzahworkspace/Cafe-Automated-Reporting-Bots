@@ -1,21 +1,25 @@
-# Cafe-Automated-Reporting-Bots
+# ☕ Cafe Automated Sales Reporting Bot
 
-## Project Overview
-An automated reporting bot for café SMEs that generates and sends
-weekly business performance reports based on sales data.
+This tool automatically generates weekly and monthly sales reports
+from your POS-exported CSV file.
 
-## Problem Statement
-Café owners manually analyze Excel sales data, which is time-consuming
-and error-prone.
+## How to use (3 steps)
 
-## Solution
-This project automates data ingestion, analysis, visualization, and
-report delivery via email or Telegram.
+1. Export sales data from your POS system as CSV
+2. Replace the file in:
+   data/Coffe_sales.csv
+3. Double-click:
+   run_report.bat
 
-## Tech Stack
-- Python
-- Pandas
-- Matplotlib / Plotly
-- Telegram Bot API
+Your reports will be generated in the `reports/` folder.
 
-## This is my first project in Github. I am challeging myself to build one project every month.
+## What you get
+- Weekly sales report (PDF)
+- Monthly sales report (PDF)
+- Revenue trends
+- Best & worst performing drinks (visual)
+- Peak hours
+- Actionable insights
+
+No Excel. No manual work.
+

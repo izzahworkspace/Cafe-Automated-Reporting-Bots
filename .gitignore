@@ -1,0 +1,12 @@
+# Ignore generated reports
+reports/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore font cache files
+*.pkl
+
+# Ignore environment variables
+.env
